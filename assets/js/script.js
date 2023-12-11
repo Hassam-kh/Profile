@@ -14,14 +14,14 @@ $( document ).ready(function() {
 $(document).ready(function() {
     $('#downloadResumeBtn').on('click', function() {
         // Construct the path to your resume file
-        var resumeFilePath = '/assets/resume/Hassam.pdf'; // Change this to the actual path and filename
+        var resumeFilePath = './assets/resume/Hassam.pdf'; // Change this to the actual path and filename
 
         // Create a temporary anchor element
         var downloadLink = document.createElement('a');
         downloadLink.href = resumeFilePath;
 
         // Set the download attribute with the desired filename
-        downloadLink.download = 'your_resume.pdf'; // Change this to the desired filename
+        downloadLink.download = 'Hassam.pdf'; // Change this to the desired filename
 
         // Append the anchor element to the document
         document.body.appendChild(downloadLink);
