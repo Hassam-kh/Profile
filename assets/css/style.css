@@ -63,6 +63,17 @@ textarea {
   text-align: left;
 }
 
+.serv-cove {
+    height: 100%; /* Ensure boxes take 100% height of the parent */
+    display: flex;
+    flex-direction: column;
+}
+
+.serv-cove > * {
+    flex: 1; /* Distribute available space equally among children */
+}
+
+
 .right {
   text-align: right;
 }
